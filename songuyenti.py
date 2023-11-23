@@ -1,7 +1,7 @@
 snt =[]
 
 def timsonguyento(so):
-    for i in range(0, so+1):
+    for i in range(0, so):
         if(checksonguyento(i) == True):
             snt.append(i)
 
