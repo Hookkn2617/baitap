@@ -1,6 +1,6 @@
 uoc = []
 
-def timsonguyento(so):
+def timsouoc(so):
     for i in range(1, so+1):
         if(so%i == 0):
             uoc.append(i)
@@ -22,7 +22,7 @@ def checksohoanhao(so):
 
 n = int(input("nhap so n: "))
 
-timsonguyento(n)
+timsouoc(n)
 
 if any(i**2 == n for i in range(0,n + 1)):
     print(n, " la so chinh phuong")
